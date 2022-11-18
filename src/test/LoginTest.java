@@ -17,17 +17,20 @@ public class LoginTest {
     }
 
     @Test
-    public void validLoginTest(){
+    public void validLoginTest()
+    {
 
     }
 
     @Test
-    public void invalidLoginWithInvalidEmailTest(){
+    public void invalidLoginWithInvalidEmailTest()
+    {
 
     }
 
     @After
-    public void closeBrowser(){
+    public void closeBrowser()
+    {
         driver.quit();
     }
 
